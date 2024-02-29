@@ -29,6 +29,7 @@ a
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 2vh;
     height: 15%;
     width: 100%;
     justify-content: space-between;
@@ -41,19 +42,24 @@ a
 }
 .derecha li:nth-child(3)
 {
-    margin-right: 200px;
+    margin-right: 11VW;
 }
 .izquierda li:nth-child(1)
 {
-    margin-left: 90px;
+    margin-left: 4vw;
 }
 .derecha li
 {
-    padding-left: 40px;
+    padding-left: 3vw;
 }
 .izquierda li
 {
-    padding-right: 40px;
+    padding-right: 3vw;
+}
+.logo
+{
+    width: 5.8vw;
+    height: 9.3vh;
 }
 .pag1 nav ul li a
 {
@@ -80,7 +86,7 @@ main
     flex-direction: column;
     justify-content: center;
     padding: 25px;
-    padding-right: 280px;
+    padding-right: 13%;
 }
 .plato
 {
@@ -94,22 +100,21 @@ main
     width: 90%;
 }
 main > div > h1{
-    font-size: 5rem;
-    font-family: 'Roboto Slab', serif;
+    font-size: 4vw;
+    font-family: 'Roboto Slab';
     font-weight: 1000 ;
     color:#e58f00;
-    padding-top: px;
 }
-main > div > h3
+main > div > h3 
 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 2vw;
     margin: 30px 0px 30px 0px;
 }
 .contact
 {
-    width: 250px;
-    height: 90px;
+    width: 38%;
+    height: 11%;
     display: flex;
     background-color:  #e58f00;
     border-radius: 5px;
@@ -118,11 +123,37 @@ main > div > h3
     border: none;
     color: black;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2vw;
     cursor: pointer;
 }
 .pag2
 {
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.comida_2
+{
+    width: 53%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.home_text2
+{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+}
+.comida_2 img
+{
+
+}
+.titulo2
+{
+    font-size: 3vw;
 }
