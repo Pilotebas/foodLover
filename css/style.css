@@ -148,12 +148,30 @@ main > div > h3
     flex-direction: column;
     justify-content: center;
     padding-left: 3vw;
+    padding-right: 20vw;
 }
 .comida_2 img
 {
-
+    width: 30vw;
 }
 .titulo2
 {
     font-size: 3vw;
+    color: white;
+}
+.text_home2
+{
+    font-size: 1vw;
+    color: white;
+}
+.pag4
+{
+    height: 100vh;
+    width: 100%;
+}
+.imagenes
+{
+    height: 40%;
+    width:100vw;
+    display: flex;
 }
