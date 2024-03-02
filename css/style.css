@@ -11,7 +11,7 @@ html{
     background-color: #17171e;
 }
 .pag1 {
-    height: 100vh;
+    height: 56vw;
     background:linear-gradient(#0d0d0dec, #222121ee), url(/storage/img/placeYourImageHere0.png) center/ cover no-repeat;
 }
 ul
@@ -125,7 +125,7 @@ main > div > h3
 }
 .pag2
 {
-    height: 100vh;
+    height: 56vw;
     display: flex;
     flex-direction: row;
 }
@@ -162,6 +162,7 @@ main > div > h3
 }
 .pag3
 {
+    height: 112vw;
     background-image: url(..//storage/img/placeYourImageHereFood.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,7 +210,7 @@ main > div > h3
     font-family: 'Roboto Slab';
 }
 .pag4
-{   height: 100%; 
+{   height: 56vw; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +249,7 @@ main > div > h3
     background-image: url(..//storage/img/placeYourImageHereOur0.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 56vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,7 +290,7 @@ main > div > h3
 }
 .pag6
 {
-    height: 100vh;
+    height: 56vw;
     display: flex;
     flex-direction: column;
     align-items: center;
