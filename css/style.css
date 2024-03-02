@@ -126,7 +126,6 @@ main > div > h3
 .pag2
 {
     height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -211,7 +210,7 @@ main > div > h3
 }
 .pag4
 {
-    height: 150%;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,12 +299,59 @@ main > div > h3
     display: flex;
     justify-content: center;
     font-size: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
     color: white;
 }
+
 .menus
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.menu1, .menu2, .menu3
+{
+    width: 25vw;
+}
+section > section > article  div h1
+{
+    font-size: 1.28vw;
+    font-weight: 1000;
+    color: #e58f00;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    padding: 1.7vw 0 1vw 0;
+}
+.menu1 > div, .menu2 > div, .menu3 > div
+{
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu1  div  img, .menu2 > div > img, .menu3 > div > img
+{
+    object-fit: cover;
+    object-position: center;
+    width: 20vw;
+}
+.menu1 div p, .menu2 div p, .menu3 div p
+{
+    width: 20vw;
+    font-size: 0.86vw;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab';
+}
+.menu1 div h3, .menu2 div h3, .menu3 div h3
+{
+    font-size: 1.28vw;
+    font-weight: 1000;
+    color: #e58f00;
+    font-family: 'Roboto Slab';
+    display: flex;
+    align-self: flex-start;
+    padding-left: 2.5vw;
 }
