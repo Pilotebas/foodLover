@@ -214,7 +214,8 @@ main > div > h3
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 5vw;
+    margin-top: 7vw; 
+    margin-bottom: 5vw;
 }
 .titulo4
 {
@@ -355,4 +356,47 @@ section > section > article  div h1
     display: flex;
     align-self: flex-start;
     padding-left: 2.5vw;
+}
+.pag7
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido7
+{
+    width: 100vw;
+    height: 28vw;
+    background-color: #e58f00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.home_text7
+{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-right: 20vw;
+}
+.home_text7 h1
+{
+    font-size: 3vw;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab';
+}
+.home_text7 h3
+{
+    padding-top: 3vw;
+    font-size: 1.8vw;
+    font-weight: 1000;
+    color: white;
+    font-family: 'Roboto Slab';
+}
+.img7
+{
+    width: 33vw;
 }
