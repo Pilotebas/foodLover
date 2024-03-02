@@ -256,9 +256,9 @@ main > div > h3
 }
 .contenido5
 {
-    height: 30vw;
-    width: 35vw;
-    border: 10px solid #e58f00;
+    height: 38vw;
+    width: 42vw;
+    border: 1vw solid #e58f00;
     background-color: #121218b8;
     display: flex;
     flex-direction: column;
