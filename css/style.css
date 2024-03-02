@@ -209,11 +209,11 @@ main > div > h3
     font-family: 'Roboto Slab';
 }
 .pag4
-{
-    height: 110vh;
+{   height: 100%; 
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 5vw;
 }
 .titulo4
 {
